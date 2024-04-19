@@ -1,0 +1,122 @@
+body{
+	background-image: url(images/bg2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid white;
+	border-radius: 20px;
+	padding: 20px;
+	width: 800px;
+	align-content: center;
+	margin: 100px 500px 100px 500px;
+	font-family: Arial;
+	backdrop-filter: blur(15px);
+	box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.6);
+}
+.title h1{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bolder;
+}
+.pfp img{
+	width: 20%;
+	display: block;
+	margin: auto;
+	border: 2px solid white;
+	border-radius: 50%;
+	box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.6);
+	margin-top: 50px;
+}
+.displayname h2{
+	text-align: center;
+	margin-top: 50px;
+}
+.displayname h2 a{
+	color: white;
+	text-decoration: none;
+}
+.displayname h2 a:hover{
+	border: 2px solid black;
+	background-color: grey;
+	color: black;
+	border-radius: 8px;
+}
+.self-intro .introhead{
+	background: linear-gradient(90deg, #d1cfcf, grey, #1f1f1e);
+	border: 0px;
+	border-radius: 8px;
+	margin: 5px;
+	margin-top: 30px;
+
+}
+.self-intro h3{
+	margin: 15px;
+}
+.self-intro .intro-p{
+	margin: 20px;
+	text-align: justify;
+	color: white;
+}
+.educ-back .edback-head{
+	background: linear-gradient(90deg, #d1cfcf, grey, #1f1f1e);
+	border: 0px;
+	border-radius: 8px;
+	margin: 5px;
+	margin-top: 30px;
+}
+.edback-head h4{
+	margin: 15px;
+}
+.edback-table table{
+	width: 100%;
+	border: 2px solid #b8b8b8;
+	border-collapse: collapse;
+}
+table, th, td{
+	border: 2px solid #b8b8b8;
+	padding: 4px;
+	color: white;
+	margin: auto;
+}
+.expertise .expert-head{
+	background: linear-gradient(90deg, #d1cfcf, grey, #1f1f1e);
+	border: 0px;
+	border-radius: 8px;
+	margin: 5px;
+	margin-top: 30px;
+}
+.expert-head h3{
+	margin: 15px;
+}
+ul li{
+	color: white;
+	list-style-type: square;
+}
+.back-infotech .back-infohead{
+	background: linear-gradient(90deg, #d1cfcf, grey, #1f1f1e);
+	border: 0px;
+	border-radius: 8px;
+	margin: 5px;
+	margin-top: 30px;
+}
+.back-infohead h4{
+	margin: 15px;
+}
+.back-p{
+	margin: 20px;
+	text-align: justify;
+	color: white;
+}
+.app-use .app-usehead{
+	background: linear-gradient(90deg, #d1cfcf, grey, #1f1f1e);
+	border: 0px;
+	border-radius: 8px;
+	margin: 5px;
+	margin-top: 30px;
+}
+.app-usehead h4{
+	margin: 15px;
+}
+ol li{
+	color: white;
+}
